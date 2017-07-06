@@ -24,22 +24,6 @@
 }
 
 
-//
-// @font-face {
-//   font-family: 'Tokyo-Regular';
-//   src: url('/dist/fonts/Tokyo-Regular.eot?#iefix') format('embedded-opentype'),  url('/dist/fonts/Tokyo-Regular.otf')  format('opentype'),
-// 	     url('/dist/fonts/Tokyo-Regular.woff') format('woff'), url('/dist/fonts/Tokyo-Regular.ttf')  format('truetype'), url('/dist/fonts/Tokyo-Regular.svg#Tokyo-Regular') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-//
-// @font-face {
-//   font-family: 'Tokyo-Outline';
-//   src: url('/dist/fonts/Tokyo-Outline.eot?#iefix') format('embedded-opentype'),  url('/dist/fonts/Tokyo-Outline.otf')  format('opentype'),
-// 	     url('/dist/fonts/Tokyo-Outline.woff') format('woff'), url('/dist/fonts/Tokyo-Outline.ttf')  format('truetype'), url('/dist/fonts/Tokyo-Outline.svg#Tokyo-Outline') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
 
 @import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700');
 
@@ -49,8 +33,6 @@ html{
   background-attachment:fixed;
 }
 body{
-  // font-family: 'Tokyo-Regular';
-
   font-family: 'News Cycle', sans-serif;
   font-size: 1em;
   font-weight: lighter;
@@ -149,18 +131,7 @@ footer{
   background: #9d9d9d;
   color: #fff;
 }
-#accent-strip-top{
-  height: 8vh;
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('./images/bananapinklarge.jpg');
-  background-size: cover, 200px;
-  background-repeat: no-repeat, repeat-x;
-}
-#accent-strip-bottom{
-  height: 5vh;
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('./images/bananapinklarge.jpg');
-  background-size: cover, 200px;
-  background-repeat: no-repeat, repeat-x;
-}
+
 .flex{
   display: flex;
 }
