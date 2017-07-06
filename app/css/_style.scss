@@ -1,20 +1,20 @@
 
 @font-face {
   font-family: 'Tokyo-Regular';
-  src: url('/dist/fonts/Tokyo-Regular.woff') format('woff'), url('/dist/fonts/Tokyo-Regular.ttf')  format('truetype');
+  src: url('./fonts/Tokyo-Regular.woff') format('woff'), url('./fonts/Tokyo-Regular.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Tokyo-Outline';
-  src: url('/dist/fonts/Tokyo-Outline.woff') format('woff'), url('/dist/fonts/Tokyo-Outline.ttf')  format('truetype');
+  src: url('./fonts/Tokyo-Outline.woff') format('woff'), url('./fonts/Tokyo-Outline.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Tokyo-Merged';
-  src: url('/dist/fonts/Tokyo-Merged.woff') format('woff'), url('/dist/fonts/Tokyo-Merged.ttf')  format('truetype');
+  src: url('./fonts/Tokyo-Merged.woff') format('woff'), url('./fonts/Tokyo-Merged.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
