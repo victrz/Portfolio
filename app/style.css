@@ -1,0 +1,109 @@
+
+html{
+  height:100%;
+  background:linear-gradient(315deg,rgba(0,170,255,0.1),rgba(220,110,10,0.2) 80%),url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/shattered.png);
+  background-attachment:fixed,fixed;
+}
+footer{
+  background: #000;
+  color: #fff;
+}
+#top-fixed{
+  z-index: 10000;
+  position: fixed;
+  width: 100%;
+  /*height: 50vh;*/
+  background: rgba(255, 0, 0, 0.5);
+}
+.slant1 {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.slant1:after {
+  background: rgba(200, 80, 200, 0.1);
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.slant2 {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.slant2:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.slant3{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.slant3:after {
+  background: linear-gradient(315deg,rgba(255,90,200,0.1),rgba(0,170,255,0.1)),linear-gradient(90deg,rgba(255,255,255,0.9),rgba(255,255,255,0.1));
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.slant4{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.slant4:after{
+  background-color: rgba(230, 250, 250, 0.5);
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.slant5{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  height: 30vh;
+}
+.slant5:after{
+  bottom: 0;
+  background-color: rgba(114, 114, 127, 0.9);
+
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
