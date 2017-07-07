@@ -37,6 +37,22 @@ body{
   font-size: 1em;
   font-weight: lighter;
 }
+a:link,  a:visited, a:hover, a:active,{
+  text-decoration: none;
+  color: white;
+}
+#social{
+  a:link,  a:visited, a:hover, a:active,{
+    text-decoration: none;
+    color: white;
+  }
+}
+.project-links{
+  a:link,  a:visited, a:hover, a:active,{
+    color: rgba(0,0,0,0.2);
+    text-decoration: none;
+  }
+}
 .text-outline{
   font-family: 'Tokyo-Outline';
   color: black;
@@ -354,6 +370,10 @@ footer{
 .shift{
   padding-top: 20px;
 }
+.shift-example{
+  // padding-top: 30px;
+  margin: 10px 0;
+}
 .width10{
   width: 10%;
 }
@@ -381,6 +401,36 @@ footer{
 .width75{
   width: 75%;
 }
+.width100{
+  width: 100%;
+}
+.h60{
+  height: 60%;
+}
+.h50{
+  height: 50%;
+}
+.h40{
+  height: 40%;
+}
+.h75{
+  height: 75%;
+}
+.h85{
+  height: 85%;
+}
+.h90{
+  height: 90%;
+}
+.h100{
+  height: 100%;
+}
+.ex-img{
+  height: 60%;
+}
+.ex-desc{
+  height: 40%;
+}
 .margin-auto{
   margin: auto;
 }
@@ -407,6 +457,7 @@ footer{
   border-radius: 4px;
   box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
   padding: 10px;
+  height: 85%;
 }
 .test{
   box-shadow: 1px 1px rgba(0,0,0,0.1),-1px 1px rgba(0,0,0,0.1),0 0 1px 1px rgba(0,0,0,0.1);
@@ -581,8 +632,8 @@ footer{
 }
 .example-layout{
   flex-direction: column;
-  height: 90%;
-  margin: auto;
+  // height: 90%;
+  // margin: auto;
 }
 .example-layout-each3{
   width: 100%;
@@ -609,13 +660,18 @@ footer{
 }
 .fa-fade{
   color: rgba(0,0,0,0.2);
-
 }
 @media only screen and (min-width: 550px) {
     .example-layout{
       flex-direction: row;
-      height: 70%;
-      margin: auto;
+      // height: 70%;
+      // margin: auto;
+    }
+    .ex-img{
+      height: 100%
+    }
+    .ex-desc{
+      height: 100%
     }
     .example-layout-each3{
       width: 33%;
@@ -660,8 +716,8 @@ footer{
   }
   .example-layout{
     flex-direction: column;
-    height: 70%;
-    margin: auto;
+    // height: 70%;
+    // margin: auto;
   }
   .example-layout-each3{
     width: 100%;
@@ -681,8 +737,14 @@ footer{
   }
   .example-layout{
     flex-direction: row;
-    height: 70%;
-    margin: auto;
+    // height: 70%;
+    // margin: auto;
+  }
+  .ex-img{
+    height: 100%
+  }
+  .ex-desc{
+    height: 100%
   }
   .example-layout-each3{
     width: 33%;
@@ -697,7 +759,9 @@ footer{
   }
 }
 @media only screen and (max-width: 500px) and (min-height: 520px) {
-
+.testing{
+  height: 40vh;
+}
   .intro{
     margin-top: 5vh;
   }
@@ -711,6 +775,9 @@ footer{
 
 }
 @media only screen and (min-width: 950px) {
+  .testing{
+    height: 40vh;
+  }
   p{
     text-shadow: #9d9d9d 1px 1px 3px;
     line-height: 1.3em;
@@ -744,8 +811,14 @@ footer{
   }
   .example-layout{
     flex-direction: row;
-    height: 70%;
-    margin: auto;
+    // height: 70%;
+    // margin: auto;
+  }
+  .ex-img{
+    height: 100%
+  }
+  .ex-desc{
+    height: 100%
   }
   .example-layout-each3{
     width: 33%;
